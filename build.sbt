@@ -9,8 +9,7 @@ scalaVersion := "2.11.6"
 libraryDependencies ++= Seq(
   javaJdbc,
   cache,
-  javaWs,
-  "org.mockito" % "mockito-core" % "1.10.19" % "test"
+  javaWs
 )
 
 // Play provides two styles of routers, one expects its actions to be injected, the
